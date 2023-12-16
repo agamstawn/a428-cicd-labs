@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'node:16-buster-slim'
-            args '-p 3000:300'
+            args '-p 3059:3059'
         }
     }
     stages {
